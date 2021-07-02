@@ -1,0 +1,44 @@
+h1{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 70px;
+  color:darkblue;
+  position: relative;
+  background: turquoise;
+  width: 600px;
+  animation: exemplu 6s infinite alternate linear;
+}
+
+@keyframes exemplu{
+     0%{left:0px; top:0px; background: red;}
+     25%{left:50px; top:0px; background: blue;}
+     50%{left:50px; top:50px; background: yellow;}
+     75%{left:0px; top:50px; background: black;}
+     100%{left:0px; top:0px; background: red;}
+     }
+
+table{
+  text-align: center;
+  border: 1px;
+  margin:auto;
+}
+
+tr:nth-last-child(2n+0){
+  background: white;
+}
+
+tr:nth-last-child(2n+1){
+  background: #26C4EC;
+}
+
+tr:nth-child(1) {
+  background: blue;
+  font-weight: bold; 
+}
+
+tr:nth-child(10){
+  background: #CECECE ;
+  color:#606060 ;
+}
+
+

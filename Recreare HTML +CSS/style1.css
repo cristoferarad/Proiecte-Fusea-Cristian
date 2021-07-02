@@ -1,0 +1,102 @@
+body{
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+}
+
+
+.Numele{
+  padding-left: 40px;
+  padding-top: 15px;
+  margin-bottom: -20px;
+
+}
+
+
+.Google-Maps{
+  color: brown;
+  padding-left: 40px;
+  margin-top: -5px;
+  text-align: left;
+}
+
+ .map{
+  padding-left: 40px;
+
+ }
+
+.Data{
+  padding-left: 580px;
+  margin-top: -12px;
+}
+
+.Vielen{
+  padding-left: 320px;
+}
+
+.Sehr{
+  padding-left: 140px;
+}
+
+.Buchungsdaten{
+  padding-left: 50px;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.Tipul{
+  padding-left: 50px;
+  margin-bottom: -12px;
+}
+
+.Data_cand_doreste{
+  padding-left: 50px;
+  margin-bottom: -12px;
+}
+
+.Durata_maxima{
+  padding-left: 50px;
+  margin-bottom: -12px;
+}
+
+.Daca_doreste{
+  padding-left: 50px;
+  margin-bottom: -12px;
+}
+
+.Mesaje_scrise{
+  padding-left: 50px;
+  margin-bottom: 70px;
+}
+
+.Vielen_dank_für{
+  padding-left: 70px;
+  color: #669999;
+  margin-bottom: 80px;
+}
+
+.Mit{
+  padding-left: 85px;
+  margin-bottom: 20px;
+}
+
+.Scris-colorat{
+  color: #339966;
+}
+
+.Emblema{
+  padding-left: 60px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;  
+    padding-top: 10px;
+    padding-bottom: 90px;
+   }
+
+.colorat{
+  color:#339966 ;
+}
+
+

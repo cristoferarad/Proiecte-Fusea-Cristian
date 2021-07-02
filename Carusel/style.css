@@ -1,0 +1,115 @@
+body{
+  position: auto;
+  background-color: #CCCCCC;
+}
+
+h1{
+  color:#00FF00;
+  background-color: yellow;
+  width: 550px;
+  position : auto;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+audio{
+  margin-top:150px;
+  margin-left:180px;
+  opacity:0.5;
+  position:auto;
+}
+
+div {
+  border-radius: 50px;
+  text-align: center;
+  font-size: 50px;
+  width: 70px;
+  height: 70px;
+  background: red;
+  position: relative;
+  animation: mymove 5.5s infinite normal linear ;
+  opacity:0.9;
+}
+
+@keyframes mymove {
+  0%   {top: 0px; left: 0px; background: red;}
+  25%  {top: 0px; left: 600px; background: yellow;}
+  50%  {top: 500px; left: 600px; background: blue;}
+  75%  {top: 500px; left: 0px; background: white;}
+  100% {top: 0px; left: 0px; background: green;}
+ 
+}
+
+p{width: 400px;
+  height: 400px;
+  border-radius: 200px;
+  position:relative;
+  background: blue;
+  margin-left: 130px;
+  margin-top: 15px;
+  animation:culoare 3s infinite normal linear;
+}
+
+@keyframes culoare{
+   0%   { background: fuchsia;}
+  25%  { background: lime;}
+  50%  { background: blue;}
+  75%  { background: aqua;}
+  100% { background: lime;}
+}
+
+
+.vulpe{
+  animation-delay: 0.5s;
+}
+
+.broasca{
+  animation-delay: 1s;
+  margin-top: -70px;
+}
+
+.unicorn{
+  animation-delay: 1.5s;
+  margin-top: -70px;
+}
+
+.dragon{
+  animation-delay: 2s;
+  margin-top:-70px;
+}
+
+.porc{
+  animation-delay: 2.5s;
+  margin-top:-70px;
+}
+
+.albina{
+  animation-delay: 3s;
+  margin-top: -70px;
+}
+
+.urspanda{
+  animation-delay: 3.5s;
+  margin-top:-70px;
+}
+
+.ursbrun{
+  animation-delay: 4s;
+  margin-top:-70px;
+}
+
+.iepure{
+  animation-delay: 4.5s;
+  margin-top: -70px;
+}
+
+.tigru{
+  animation-delay: 5s;
+  margin-top:-70px;
+}
+
+.soarece{
+  animation-delay: 5.5s;
+  margin-top:-70px;
+}
